@@ -1,0 +1,29 @@
+.local_button {
+    -fx-alignment: CENTER-LEFT;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 10 0 10 0;
+}
+
+.local_button:hover {
+    -fx-border-color:#ffffff;
+    -fx-background-radius:2px;
+    -fx-background-color: #000000;
+    -fx-alignment: CENTER-LEFT;
+    -fx-text-fill: #ffffff;
+}
+
+#green {
+    -fx-background-color: #2E2E3A;
+}
+
+#grey {
+    -fx-background-color: #000000;
+}
+
+#transparent {
+    -fx-background-color: transparent;
+    -fx-text-fill: #00538A;
+    -fx-border-color:#00538A;
+    -fx-background-radius:2px;
+}

@@ -1,0 +1,93 @@
+.table-view {
+  -fx-border-color: transparent;
+  -fx-background-color: transparent;
+}
+
+/* Table header */
+.table-view .column-header {
+  -fx-background-color: #ffffff;
+  -fx-alignment: CENTER;
+  -fx-pref-height: 50px;
+}
+
+/* Table header text */
+.table-view .column-header .label {
+  -fx-text-fill: #000000;
+}
+
+/* Akward spot column header */
+.table-view .column-header-background .filler {
+  -fx-background-color: #ffffff;
+}
+.table-view .column-header-background {
+  -fx-background-color: #ffffff;
+}
+
+/* Arrow in each column header when you press it */
+.table-view .column-header .arrow {
+  -fx-background-color: #545454;
+}
+
+/* When you drag and drop a header */
+.column-drag-header {
+  -fx-background-color: #545454;
+}
+
+/* column border, alignment and height */
+.table-view .table-cell {
+  -fx-border-color: transparent;
+  -fx-alignment: CENTER;
+  -fx-pref-height: 50px;
+}
+
+/* Row label Text color */
+.table-cell {
+  -fx-text-fill: #000000;
+}
+
+/* Row colors (standard odd/even, hover amd select */
+.table-row-cell:odd {
+  -fx-background-color: #ffffff;
+}
+.table-row-cell:even {
+  -fx-background-color: #b9b9b9;
+}
+
+.table-row-cell:hover {
+  -fx-background-color: #545454;
+}
+
+/* Search Field */
+.text-field {
+  -fx-background-color: #b9b9b9;
+  -fx-pref-height: 50px;
+  -fx-text-fill: #000000;
+}
+
+/* Scrollbar */
+.table-view .scroll-bar {
+  -fx-background-color: #b9b9b9;
+}
+
+.table-view .scroll-bar .thumb {
+  -fx-background-color: #545454;
+}
+
+.table-view .scroll-bar .track {
+  -fx-background-color: #ffffff;
+}
+
+/* Bottom right corner between the scrollbars */
+.table-view .corner {
+  -fx-background-color: #b9b9b9;
+}
+
+.date-picker {
+  -fx-pref-height: 40px;
+  -fx-background-color: #333;
+  -fx-text-fill: #000000;
+}
+
+.date-picker .arrow-button {
+  -fx-background-color: #545454;
+}

@@ -1,0 +1,44 @@
+.dialog-pane {
+    -fx-min-width: 400px;
+    -fx-min-height: 400px;
+    -fx-max-width: 400px;
+    -fx-max-height: 400px;
+}
+
+
+GridPane {
+    -fx-background-color: #000000;
+    -fx-alignment: center;
+    -fx-hgap: 100;
+    -fx-vgap: 10;
+    -fx-padding: 10 0 15 100;
+
+}
+
+.root{
+    -fx-background-color: #000000;
+
+   }
+
+.Label {
+    -fx-text-fill: white;
+    -fx-font-size: 14pt;
+    -fx-font-family: Helvetica;
+    -fx-translate-y: -100;
+}
+
+
+.hbox {
+    -fx-translate-x: -55;
+    -fx-spacing: 10;
+}
+
+#field {
+    -fx-pref-width: 200;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-background-color: #2E2E3A;
+    -fx-pref-width: 85;
+}

@@ -1,0 +1,27 @@
+GridPane {
+    -fx-background-color: #000000;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 10 0 15 100;
+}
+
+Label {
+    -fx-text-fill: white;
+    -fx-translate-y: -10;
+    -fx-translate-x: -55;
+}
+
+.hbox {
+    -fx-translate-x: -55;
+    -fx-spacing: 10;
+}
+
+#field {
+    -fx-pref-width: 200;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-background-color: #2E2E3A;
+    -fx-pref-width: 85;
+}

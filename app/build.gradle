@@ -1,0 +1,61 @@
+
+plugins {
+    // Apply the application plugin to add support for building a CLI application in Java.
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
+dependencies {
+    // Use JUnit Jupiter for testing.
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+
+    // This dependency is used by the application.
+    implementation 'com.google.guava:guava:31.0.1-jre'
+
+    // Handle JSON.
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.8.9'
+
+    // https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
+    implementation group: 'com.mysql', name: 'mysql-connector-j', version: '8.0.31' 
+
+    // PDF
+    implementation 'com.itextpdf:itext7-core:7.1.13'
+    implementation 'com.itextpdf:itextpdf:5.5.13.2'
+
+    // JavaFX
+    implementation 'org.openjfx:javafx-base:11.0.2'
+    implementation 'org.openjfx:javafx-graphics:11.0.2'
+    implementation 'org.openjfx:javafx-controls:11.0.2'
+}
+
+javafx {
+    version = "19"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'javaproject.Main'
+}
+
+tasks.named('test') {
+    // Use JUnit Platform for unit tests.
+    useJUnitPlatform()
+}
+
+// Changes the standard input.
+run {
+    standardInput = System.in
+}
+
+// Allows for Javadocs
+javadoc {
+    options {
+        links 'https://docs.oracle.com/en/java/javase/18/docs/api/'
+    }
+}

@@ -1,0 +1,1 @@
+81.226.163.168:3306/hoteldb,hotelbuddy,89w6WqHzWwly9t6S

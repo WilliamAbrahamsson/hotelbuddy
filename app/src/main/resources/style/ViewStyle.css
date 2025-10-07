@@ -1,0 +1,14 @@
+
+Region {
+  -fx-background-color: #111111;
+}
+
+HBox {
+  -fx-border-width: 0 0 1px 0;
+  -fx-border-color: transparent;
+  -fx-spacing: 15;
+}
+
+.topbar {
+  -fx-background-color: #111111;
+}

@@ -1,0 +1,29 @@
+#buttonStyle{
+    -fx-background-color: #111111; 
+    -fx-alignment: CENTER-LEFT; 
+    -fx-background-radius: 0, 0, 0, 0; 
+    -fx-font-size: 14px; 
+    -fx-text-fill: #ffffff;
+    /* -fx-border-color: transparent;  */
+    /* -fx-border-size: 1px; */
+}
+
+#buttonStylePressed{
+    -fx-background-color: #1d1d1d; 
+    -fx-alignment: CENTER-LEFT; 
+    -fx-background-radius: 0, 0, 0, 0; 
+    -fx-font-size: 14px; 
+    -fx-text-fill: #ffffff;
+    /* -fx-border-color: #444444;  */
+    /* -fx-border-size: 1px; */
+}
+
+#buttonStyleHover{
+    -fx-background-color: #171717; 
+    -fx-alignment: CENTER-LEFT; 
+    -fx-background-radius: 0, 0, 0, 0; 
+    -fx-font-size: 14px; 
+    -fx-text-fill: #ffffff;
+    /* -fx-border-color: transparent;  */
+    /* -fx-border-size: 1px; */
+}

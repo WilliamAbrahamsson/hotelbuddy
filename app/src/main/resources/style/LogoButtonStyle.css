@@ -1,0 +1,25 @@
+#Button {
+    -fx-alignment: CENTER;
+    -fx-font-size: 14px;
+    
+    -fx-text-fill: #ffffff;
+}
+#Buttonhover{
+    -fx-alignment: CENTER;
+    -fx-font-size: 14px;
+    -fx-border-color: #ffffff;
+    -fx-text-fill: #ffffff;
+}
+
+#bgcolor{
+    -fx-background-color: #000000;
+    -fx-border-color: #2E2E3A;    
+}
+
+#mucolor{
+    -fx-background: #ffffff; 
+    -fx-alignment: CENTER; 
+    -fx-font-size: 13px;
+    -fx-border-color: #444444; 
+    -fx-text-fill: #ffffff;
+}
